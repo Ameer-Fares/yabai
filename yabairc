@@ -25,7 +25,7 @@ yabai -m rule --add app="^terminal$" space=terminal
 
 
 # Window rules
-yabai -m rule --add app="^(Calculator|System Preferences|System Settings|Archive Utility|Finder)$" manage=off
+yabai -m rule --add app="^(Calculator|System Preferences|System Settings|Archive Utility|Finder|Visual Studio)$" manage=off
 # Anki card preview
 yabai -m rule --add title="^Preview" manage=off
 yabai -m rule --add title="^Preferences" manage=off
